@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Customers from './Customers'
+import Customers from './component/customer/Customers'
 import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 
 
@@ -14,7 +14,7 @@ class App extends Component {
         <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Simple React App</h1>
+          <h1 className="App-title">Praveen App</h1>
         </header>
           <Switch>
                 <Route exact path= "/" render={() => (
